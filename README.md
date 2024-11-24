@@ -72,3 +72,49 @@ c) Informe ao usuário a frase potencialmente corrigida ou então diga que a fra
   ```
   
 </details>
+
+<br>
+
+#### PP 3.4
+
+<details>
+<summary>PRÁTICA DE PROGRAMAÇÃO</summary>
+Demonstre a modelagem de tópicos, com LDA, utilizando alguns documentos representativos de revisões de produtos. Efetue todas as etapas de pré-processamento adequadas antes de efetuar a modelagem.
+
+<br>
+
+## Como executar
+
+1. Clone o repositório:
+  ```
+  git clone https://github.com/amandavo/PLN.git
+  ```
+2. Entre nas pastas:
+  ```
+  cd PLN
+  cd pp3_4
+  ```
+3. Crie a venv:
+  ```
+  python -m venv venv
+  ```
+4. Caso esteja pelo powershell, entre no command prompt: ``` cmd ```
+5. Ative o ambiente virtual (venv):
+  - No Windows, use:
+    ```
+    .\venv\Scripts\activate
+    ```
+  - No Linux/macOS, use:
+    ```
+    source venv/bin/activate
+    ```
+6. Instale as dependências do requirements.txt:
+  ```
+  pip install -r requirements.txt
+  ```
+7. Rode o programa:
+  ```
+  python app.py
+  ```
+  
+</details>
